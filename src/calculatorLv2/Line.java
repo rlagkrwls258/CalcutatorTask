@@ -1,6 +1,6 @@
 package calculatorLv2;
 
-public class Line<T> {
+public class Line<T extends Number> {
     String folmula;
     T result;
 

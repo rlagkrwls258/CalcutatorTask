@@ -37,6 +37,10 @@ public class Calculator {
     public List<Line<Integer>> getResultList() {
         return resultList;
     }
+    public void setResultList(List<Line<Integer>> resultList) {
+        this.resultList = resultList;
+    }
+
     public void removeList(){
         resultList.remove(-1);
     }

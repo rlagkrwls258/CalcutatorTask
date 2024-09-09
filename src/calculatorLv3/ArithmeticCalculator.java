@@ -30,4 +30,14 @@ public class ArithmeticCalculator <T extends Number> {
         resultList.remove(-1);
     }
 
+    public void printResultList() {
+        if (resultList.isEmpty()) {
+            System.out.println("결과가 없습니다.");
+        } else {
+            for (Line<T> line : resultList) {
+                System.out.println(line.toString());
+            }
+        }
+    }
+
 }

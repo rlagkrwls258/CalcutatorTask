@@ -31,9 +31,7 @@ public class App {
             }
         }
 
-        for( Line<Double> line : calc.getResultList() ){
-            System.out.println(line.toString());
-        }
+        calc.printResultList();
 
     }
 }
